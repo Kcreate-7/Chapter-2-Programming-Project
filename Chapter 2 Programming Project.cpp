@@ -30,5 +30,7 @@ int main()
 
     cout << "In 10 years the sea level will have risen " << tenYears << "mm." << endl;
 
+    return 0;
+
 
 }
