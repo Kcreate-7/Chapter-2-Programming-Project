@@ -3,9 +3,33 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    float Total, Weekly, Citrus; // Variable declaration
+
+    // Initialization
+
+    Total = 16500;
+
+    Weekly = Total * .15;
+
+    Citrus = Total * .58;
+
+    cout << "Out of the total number of customers surveyed, " << Weekly << " people purchase one or more energy drinks weekly. \n";
+    cout << "Out of the surveyed customers, " << Citrus << " people prefer the citrus flavors.";
+
+    return 0;
+
+
+
+
+
+
+
+
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
