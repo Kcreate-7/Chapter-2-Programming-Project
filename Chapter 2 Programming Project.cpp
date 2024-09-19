@@ -1,20 +1,55 @@
 // Chapter 2 Programming Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
+/* Kyle Bell
+CSC 221*/
 
 #include <iostream>
 
+
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	float Highway, City, Both, Tank;  // Assigning my float variables
+	
+	float cityDistance, hwyDistance, avgDistance; /*I think this is the right way to do this */
+
+
+
+	//Initializing the variables
+ 
+	Highway = 28.9;
+	City = 23.5;
+	Both = 26.2;
+	Tank = 20.0;
+
+	// Setting the formulas
+
+	cityDistance = City * Tank;
+	hwyDistance = Highway * Tank;
+	avgDistance = Both * Tank;
+
+	cout << "The car is able to travel " << cityDistance << " miles while driving in the city,\n";
+	cout << "and " << hwyDistance << " miles when traveling on the highway.\n";
+	cout << "The car is able to drive a combined " << avgDistance << " miles.";
+
+	// the printout is good, plus I included the average mielage
+
+	return 0;
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
