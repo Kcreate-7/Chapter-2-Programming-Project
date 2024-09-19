@@ -1,5 +1,8 @@
 // Chapter 2 Programming Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
+
+/* Kyle Bell
+CSC 221*/
 
 #include <iostream>
 
@@ -13,9 +16,9 @@ int main()
 
     Total = 16500;
 
-    Weekly = Total * .15;
+    Weekly = Total * .15;   // to get the total of customers that buy one or more drink/ week
 
-    Citrus = Total * .58;
+    Citrus = Total * .58;   // to get the total of customers that like the citrussy flavors over others 
 
     cout << "Out of the total number of customers surveyed, " << Weekly << " people purchase one or more energy drinks weekly. \n";
     cout << "Out of the surveyed customers, " << Citrus << " people prefer the citrus flavors.";
@@ -32,13 +35,3 @@ int main()
     
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
